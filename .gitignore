@@ -1,0 +1,68 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+.eggs/
+.Python
+
+# Virtual environment
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# --- Django ---
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Migrations cache only (not the migration files themselves)
+**/migrations/__pycache__/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Byte-compiled / optimized files ---
+*.pyc
+*.pyo
+*.pyd
+
+# --- Packaging ---
+pip-wheel-metadata/
+dist/
+build/
+wheels/
+
+# --- pytest / coverage ---
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# --- MyPy / Pyright ---
+.mypy_cache/
+.pyrightcache/
+
+# --- Others ---
+*.pot
+*.mo
